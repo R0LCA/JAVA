@@ -1,14 +1,12 @@
 /*
-    Ejercicio 1: Escribe un programa que lea de teclado 2 números enteros y saque
-    en pantalla todos los números que estén entre ellos. Importante: El programa NO
-    debe asumir que el usuario introducirá primero el número más pequeño.
+    Ejercicio 2: Repetir el ejercicio anterior pero solo puede mostrar numeros pares
  */
 
-package while_ejercicio1;
+package while_ejercicio2;
 
 import java.util.Scanner;
 
-public class While_ejercicio1 {
+public class While_ejercicio2 {
 
     public static void main(String[] args) {
     Scanner consola = new Scanner(System.in);
@@ -26,13 +24,13 @@ public class While_ejercicio1 {
         if(num1<num2){
             cuenta = num1;
             while(cuenta <= num2){
-                System.out.println(cuenta);
+                if(cuenta%2==0) System.out.println(cuenta);
                 cuenta++;
             }
         }else{
             cuenta = num1;
             while(cuenta >= num2){
-                System.out.println(cuenta);
+                if(cuenta%2==0) System.out.println(cuenta);
                 cuenta--;
             }
         }

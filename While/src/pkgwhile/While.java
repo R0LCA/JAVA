@@ -41,13 +41,12 @@ public class While {
    
    // 5. Sumar todos los numero introducidos por el usuario
    int suma = 0;
-    System.out.print("Introduce un numero: ");
+   System.out.print("Introduce un numero: ");
    int n = consola.nextInt();
    while(n>=0){
        suma = suma + n;
        System.out.print("Otro: ");
-       n = consola.nextInt();
-               
+       n = consola.nextInt();       
    }
    System.out.println(suma);
     
