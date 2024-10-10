@@ -18,7 +18,7 @@ public class While_ejercicio7 {
     double sumaGlobal = 0;
     double sumaMayores36 = 0;
     double sumaMenores10 = 0;
-    double num = 0;
+    double num;
     double contador = 0;
     
     while(contador != 5){
